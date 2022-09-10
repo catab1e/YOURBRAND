@@ -2,6 +2,7 @@ import React from 'react';
 import { Route , Routes } from 'routes';
 import CardsPages from './pages/CardsPages';
 import HomePage from './pages/HomePage';
+import NotFoundPage from './pages/NotFoundPage';
 
 const MainRoutes = () => {
     const ALL_ROUTES = [
@@ -14,6 +15,11 @@ const MainRoutes = () => {
             link: "/cards",
             element: <CardsPages/>,
             id: 2,
+        },
+        {
+            link: "/*",
+            element: <NotFoundPage/>,
+            id: 3,
         },
     ];
     return (
