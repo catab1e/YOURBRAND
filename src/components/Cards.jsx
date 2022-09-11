@@ -4,7 +4,10 @@ import hudi from "../assets/img/hudi.png"
 import tobirama from "../assets/img/tobirama.png"
 import saske from "../assets/img/saske.png"
 import print from "../assets/img/print.png"
-
+import pers from "../assets/img/pers.png"
+import kepka from "../assets/img/kepka.png"
+import nike from "../assets/img/nike.png"
+import maske from "../assets/img/maske.png"
 
 
 
@@ -45,7 +48,7 @@ const Cards = (item) => {
                 </div>
 
                 <div className='card'>
-                    <img className='card__img' src={hudi} alt="" />
+                    <img className='card__img' src={pers} alt="" />
                     <p>ВЫШИВКИ</p>
                     <div className='price'>
                         <p>Цена от: <span> 1200сом</span></p>
@@ -53,7 +56,7 @@ const Cards = (item) => {
                 </div>
 
                 <div className='card'>
-                    <img className='card__img' src={hudi} alt="" />
+                    <img className='card__img' src={kepka} alt="" />
                     <p>ВЫШИВКИ</p>
                     <div className='price'>
                         <p>Цена от: <span> 1200сом</span></p>
@@ -61,7 +64,7 @@ const Cards = (item) => {
                 </div>
 
                 <div className='card'>
-                    <img className='card__img' src={hudi} alt="" />
+                    <img className='card__img' src={nike} alt="" />
                     <p>ВЫШИВКИ</p>
                     <div className='price'>
                         <p>Цена от: <span> 1200сом</span></p>
@@ -69,7 +72,7 @@ const Cards = (item) => {
                 </div>
 
                 <div className='card'>
-                    <img className='card__img' src={hudi} alt="" />
+                    <img className='card__img' src={maske} alt="" />
                     <p>ВЫШИВКИ</p>
                     <div className='price'>
                         <p>Цена от: <span> 1200сом</span></p>
