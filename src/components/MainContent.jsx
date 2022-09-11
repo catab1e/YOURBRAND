@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/components.css"
+import Cards from './Cards';
 
 const MainContent = () => {
     return (
@@ -19,6 +20,7 @@ const MainContent = () => {
                     </div>
                 </div>
             </div>
+            <Cards/>
         </div>
     );
 };
