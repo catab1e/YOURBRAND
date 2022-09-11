@@ -9,10 +9,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3e1940;
+  background-color: #3e1940a6;
+  backdrop-filter: blur(7px);
   height: 60px;
   width: 100%;
   position: fixed;
+  z-index: 999;
 }
 
 

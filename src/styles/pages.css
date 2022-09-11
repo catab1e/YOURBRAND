@@ -6,4 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:xx-large;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
