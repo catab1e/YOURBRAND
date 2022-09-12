@@ -1,12 +1,12 @@
 {
     "products":[
         {
-            "category":"",
+            "category":"prints",
             "picture": "",
-            "name": "",
-            "description": "",
-            "price":"" ,
-            "id": ""
+            "name": "print",
+            "description": "asdasdasd",
+            "price":123123 ,
+            "id": "1"
         }
     ]
 }
