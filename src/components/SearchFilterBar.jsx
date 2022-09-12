@@ -13,7 +13,7 @@ const SearchFilterBar = () => {
                 </div>
                 <div className='input-box'>
                     <input type="text" required="requaired"/>
-                    <span>Search</span>
+                    <span>поиск</span>
                 </div>
             </div>
         </div>

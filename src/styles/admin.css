@@ -1,0 +1,46 @@
+.admin--box{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/img/gradient.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.admin--box__inner{
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 17, 255, 0.295);
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+}
+
+.inputsBox{
+    width: auto;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.admin--input{
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    outline:none;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(0, 238, 255);
+}
+
+.admin--input:focus{
+    border-color: rgb(0, 47, 255);
+}

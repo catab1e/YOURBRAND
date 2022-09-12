@@ -18,10 +18,10 @@ const Cards = (item) => {
                 <SearchFilterBar/>
                 <div className='cards__inner'>
                     <div className='card'>
-                        <img className='card__img' src={hudi} alt="" />
-                        <p>ВЫШИВКИ</p>
+                        <img className='card__img' src={item.picture} alt="" />
+                        <p>{item.category}</p>
                         <div className='price'>
-                            <p>Цена от: <span> 1200сом</span></p>
+                            <p>Цена от: <span>{item.price}</span></p>
                         </div>
                     </div>
 

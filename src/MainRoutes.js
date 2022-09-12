@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
+import AdminPage from './pages/AdminPage';
 import CardsPages from './pages/CardsPages';
 import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -20,6 +21,11 @@ const MainRoutes = () => {
             link: "/*",
             element: <NotFoundPage/>,
             id: 3,
+        },
+        {
+            link: "/admin123",
+            element: <AdminPage/>,
+            id: 4,
         },
     ];
 
