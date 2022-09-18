@@ -13,6 +13,9 @@ import SearchFilterBar from './SearchFilterBar';
 
 
 const Cards = (item) => {
+
+
+
     return (
             <div className='cards'>
                 <SearchFilterBar/>
