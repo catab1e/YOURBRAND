@@ -12,10 +12,10 @@ const Footer = () => {
                     <a className='astyle' href="/">Default</a>
                 </div>
                 <div className='inner-right'>
-                <a className='astyle' href="/">Default</a>
-                <a className='astyle' href="/">Default</a>
-                <a className='astyle' href="/">Default</a>
-                <a className='astyle' href="/">Default</a>
+                    <a className='astyle' href="/">Default</a>
+                    <a className='astyle' href="/">Default</a>
+                    <a className='astyle' href="/">Default</a>
+                    <a className='astyle' href="/">Default</a>
                 </div>
             </div>
         </div>

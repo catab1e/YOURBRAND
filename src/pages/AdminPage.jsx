@@ -7,7 +7,7 @@ const AdminPage = () => {
         <div className="admin--box">
             <div className='admin--box__inner'>
                 <div className='inputsBox'>
-                    <input className='admin--input' type="text" />
+                    <input className='admin--input' defaultValue="Name" type="text" />
                     <input className='admin--input' type="img" />
                     <input className='admin--input' type="password" />
                     <input type="file" />
